@@ -1,0 +1,81 @@
+<snippet>
+	<content><![CDATA[
+(function (enyo, globalScope) {
+
+	/**
+	 * $1
+	 *
+	 * @class $2
+	 * @extends ${3:enyo.Control}
+	 * @ui
+	 * @public
+	 */
+
+	enyo.kind(/** @lends $2.prototype */{
+		/**
+		 * @private 
+		 */
+		name: '$2',
+		/**
+		 * @private 
+		 */
+		kind: '$3'${4:,
+		/**
+		 * @private 
+		 */
+		classes: '$5'}${6:,
+		/**
+		 * @private {Object\}
+		 */
+		published: /** @lends $2.prototype */\{
+			$7
+		\}}${8:,
+		/**
+		 * @private {Object\}
+		 */
+		events: \{
+			$9
+		\}}${10:,
+		/**
+		 * @private {Object\}
+		 */
+		handlers: \{
+			$11
+		\}}${12:,
+		/**
+		 * @private {Array\}
+		 */
+		computed: [$13]}${14:,
+		/**
+		 * @private {Array\}
+		 */
+		observers: [$15]}${16:,
+		/**
+		 * @private {Array\}
+		 */
+		bindings: [$17]}
+		/**
+		 * @public methods
+		 */
+		$0
+		/**
+		 * @protected methods
+		 */
+		
+		${18:,
+		/**
+		 * @private {Object\}
+		 */
+		statics: {
+			$19
+		\}}
+	});
+
+})(enyo, this);
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>enyo.kind</tabTrigger>
+	<description>Enyo Kind declaration scaffolding</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

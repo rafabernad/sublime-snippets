@@ -1,0 +1,50 @@
+<snippet>
+	<content><![CDATA[
+(function (enyo, globalScope) {
+
+	/**
+	 * $1
+	 *
+	 * @class $2
+	 * @extends ${3:enyo.Model}
+	 * @ui
+	 * @public
+	 */
+
+	enyo.kind({
+		/**
+		 * @protected
+		 */
+		name: '$2',
+		kind: '$3',
+		/**
+		 * @public
+		 */
+		
+		/**
+			A hash of attributes known as the record's schema. This is where the
+			values of any attributes are stored for an active record.
+		*/
+		attributes: {
+			$4
+		}${5:,
+		/**
+			An optional hash of values and properties to be applied to the attributes
+			of the record at initialization. Any value in _defaults_ that already
+			exists on the attributes schema will be ignored.
+		*/
+		defaults: {
+			$6
+		},
+		readOnly: ${7:false}
+	});
+
+})(enyo, this);
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>enyo.model</tabTrigger>
+
+   <description>Enyo Model declaration scaffolding</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

@@ -1,0 +1,39 @@
+<snippet>
+	<content><![CDATA[
+
+/**
+ * $1
+ *
+ * @module ${2:module.name}
+ * @public
+ */
+
+angular.module('$2', [$3])
+
+.config([${4/([^,\s]+)/'$&'/gi},
+	function config($4) {
+		
+	}
+])
+
+.run([${5/([^,\s]+)/'$&'/gi},
+	function($5) {
+		
+	}
+])
+
+.controller('${2/[^.]*\W//i}Ctrl', [${6/([^,\s]+)/'$&'/gi},
+	function ${2/[^.]*\W//i}Controller($6) {
+
+	}
+])
+
+;
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ngbp.module</tabTrigger>
+	<description>Angular directive module declaration scaffolding</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
