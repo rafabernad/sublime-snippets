@@ -74,7 +74,7 @@
 })(enyo, this);
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>enyo.kind</tabTrigger>
+	<tabTrigger>enyoKind</tabTrigger>
 	<description>Enyo Kind declaration scaffolding</description>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.js</scope>

@@ -7,7 +7,6 @@
 	 *
 	 * @class $2
 	 * @extends ${3:enyo.Model}
-	 * @ui
 	 * @public
 	 */
 
@@ -42,7 +41,7 @@
 })(enyo, this);
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>enyo.model</tabTrigger>
+	<tabTrigger>enyoModel</tabTrigger>
 
    <description>Enyo Model declaration scaffolding</description>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->

@@ -1,15 +1,15 @@
 <snippet>
 	<content><![CDATA[
-enyo.inherit(function(sup) {
-	return function($1) {
-		$2
-		sup.apply(this, arguments);
+${1:methodName}: enyo.inherit(function(sup) {
+	return function($2) {
 		$3
+		sup.apply(this, arguments);
+		$4
 	}
 })
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>enyo.inherit</tabTrigger>
+	<tabTrigger>enyoInherit</tabTrigger>
 	<description>Enyo inherited method pattern</description>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.js</scope>
