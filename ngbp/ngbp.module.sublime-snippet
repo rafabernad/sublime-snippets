@@ -33,7 +33,7 @@ angular.module('$2', [$3])
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>ngbpModule</tabTrigger>
-	<description>Angular directive module declaration scaffolding</description>
+	<description>Angular module declaration scaffolding</description>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.js</scope>
 </snippet>
